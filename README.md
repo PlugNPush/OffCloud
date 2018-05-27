@@ -4,7 +4,7 @@ A simple web-based FTP-client that handles files upload and download (binary and
 To install :
 
 - Configure a web-server running Apache 2 and PHP > 7.2.0
-- Configure a MySQL server with 
+- Configure a MySQL server
 - Place all the files in the Document root directory
 - Open the following files :
   - inscription.php
