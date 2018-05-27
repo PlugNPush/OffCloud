@@ -3,8 +3,8 @@ $file = $_GET['get'];
 
 if (file_exists($file)){
     
-    // Le fichier $file est intercepté, tu peux le traiter à volonté ici avant de le recevoir.
-    // On se sert de cet espace pour déchiffrer le fichier
+    // Le fichier $file est intercepté, on peut le traiter à volonté ici avant de le recevoir.
+    // On peut se servir de cet espace pour déchiffrer le fichier
     // Mais on pourrait imaginer plusieurs autres usages, comme par exemple renommer ou éditer.
     // ATTENTION : NE RIEN AFFICHER ICI (echo) CAR LES HEADERS N'ONT PAS ÉTÉS ENVOYÉS !
     

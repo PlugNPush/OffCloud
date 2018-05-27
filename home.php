@@ -133,7 +133,7 @@ else{
 $ftpObj -> listall($_SESSION['dir']);
 }
 
-    // Obtenir un fichier ou un dossier.
+    // Télécharger un fichier.
     if (isset($_GET['get'])){
     echo "Mise en place du Transit Temporaire. Veuillez patienter.<br/>";    
     // Télécharger un fichier
